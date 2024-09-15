@@ -1,6 +1,6 @@
 import React from "react";
 import Weather from "./Weather";
-import logo from "./logo.svg";
+
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1> Hello World</h1>
-        <Weather />
+        <Weather city="paris" />
       </header>
     </div>
   );
